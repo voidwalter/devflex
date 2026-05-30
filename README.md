@@ -1,6 +1,6 @@
 # Devflex
 
-Works like nix-environments [see more info](https://github.com/nix-community/nix-environments) that maintain out-of-tree shell.nix/flake.nix files.
+Works like nix-environments ([see more info](https://github.com/nix-community/nix-environments)) that maintain out-of-tree shell.nix/flake.nix files.
 
 It includes specific dependencies for build, develop or test and doesn't include user-specific dependencies, check shell.nix to see what it includes.
 
