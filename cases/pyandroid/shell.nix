@@ -1,5 +1,13 @@
 {
-  description = "Xiaomi Unlock Tool Env";
+  pkgs,
+  extraPkgs ? [],
+  ...
+}:
+pkgs.mkShell {
+  name = "standard rust-env";
+
+   ++ extraPkgs;
+  name = "Xiaomi Unlock Tool Env";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
